@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple & Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculator</h1>
+        <p>Simple and Scientific Calculator</p>
+    </header>
+
+    <main class="container">
+
+        <div class="tabs">
+            <button class="tab active" data-mode="simple">Simple Calculator</button>
+            <button class="tab" data-mode="scientific">Scientific Calculator</button>
+        </div>
+
+        <section class="calculator">
+            <input
+                type="text"
+                id="display"
+                placeholder="0"
+                readonly
+                aria-label="Calculator display"
+            >
+            <div class="buttons" id="buttons"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Calculator Project | HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
